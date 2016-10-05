@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Fix google url
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       You
-// @match        https://www.google.com/search*
+// @include      https://www.google.com/search*
+// @include      https://www.google.com.hk/search*
+// @include      https://www.google.com.tw/search*
 // @grant        none
 // ==/UserScript==
 
